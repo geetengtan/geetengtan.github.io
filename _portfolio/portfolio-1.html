@@ -27,6 +27,7 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
             float: left;
             width: 16%;
             padding: 10px;
+            justify-content: center;
         }
 
         /* Style the images inside the grid */
@@ -76,7 +77,7 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
 
 <body>
     <div class="container">
-        <img id="expandedImg" style="width:70%">
+        <img src="/images/wheelchair0.png" id="expandedImg" style="width:70%">
         <div id="imgtext"></div>
     </div>
 
@@ -103,11 +104,6 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
     </div>
 
     <script>
-        var expandImg = document.getElementById("expandedImg");
-        var imgText = document.getElementById("imgtext");
-        expandImg.src = "/images/wheelchair0.png";
-        imgText.innerHTML = "";
-
         function myFunction(imgs) {
             var expandImg = document.getElementById("expandedImg");
             var imgText = document.getElementById("imgtext");
