@@ -48,11 +48,17 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
             clear: both;
         }
 
+        .row {
+            display: flex;
+            align-items: center;
+        }
+
         /* The expanding image container */
         .container {
             position: relative;
-            display: block;
-            align-self: center;
+            display: flex;
+            justify-content: center;
+            height: 800px;
         }
 
         /* Expanding image text */
@@ -78,7 +84,7 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
 
 <body>
     <div class="container">
-        <img src="/images/wheelchair0.png" id="expandedImg" style="width:70%">
+        <img src="/images/wheelchair0.png" id="expandedImg" style="width:70%; object-fit: contain;">
         <div id="imgtext"></div>
     </div>
 
