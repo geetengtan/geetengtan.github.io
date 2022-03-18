@@ -1,6 +1,6 @@
 ---
 title: "Mechanical Design Project"
-excerpt: "Fully mechanical wheelchair for Cerebral Palsy Patients<br/><img src='/images/500x300.png'>"
+excerpt: "Fully mechanical wheelchair for Cerebral Palsy Patients<br/><img src='/images/Wheelchair.png'>"
 collection: portfolio
 ---
 
