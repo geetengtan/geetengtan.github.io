@@ -58,7 +58,7 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
             position: absolute;
             bottom: 15px;
             left: 15px;
-            color: white;
+            color: black;
             font-size: 20px;
         }
 
@@ -83,26 +83,31 @@ My team improved the wheelchair design and was awarded a BRONZE MDEAL for Design
     <!-- The four columns -->
     <div class="row">
         <div class="column">
-            <img src="/images/wheelchair0.png" alt="wheelchair0" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair0.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
         <div class="column">
-            <img src="/images/wheelchair1.png" alt="wheelchair1" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair1.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
         <div class="column">
-            <img src="/images/wheelchair2.png" alt="wheelchair2" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair2.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
         <div class="column">
-            <img src="/images/wheelchair3.png" alt="wheelchair3" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair3.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
         <div class="column">
-            <img src="/images/wheelchair4.png" alt="wheelchair4" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair4.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
         <div class="column">
-            <img src="/images/wheelchair5.png" alt="wheelchair5" style="width:100%" onclick="myFunction(this);">
+            <img src="/images/wheelchair5.png" alt="" style="width:100%" onclick="myFunction(this);">
         </div>
     </div>
 
     <script>
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = "/images/wheelchair0.png";
+        imgText.innerHTML = "";
+
         function myFunction(imgs) {
             var expandImg = document.getElementById("expandedImg");
             var imgText = document.getElementById("imgtext");
